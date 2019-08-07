@@ -8,8 +8,7 @@ Enoncé du projet : https://www.lri.fr/~zaharia/EdC2017/Projet_EdC_2017_2018.pdf
 Ce projet nécessite de créer un dossier <code>bin</code>, <code>conf</code>, <code>doc</code>, <code>image</code> et <code>texte</code> après le téléchargement des fichiers.
 
 <pre>
-<code>
-cd KEGG_browser/src
+<code>cd KEGG_browser/src
 javac -cp ../lib/swingbox-1.1-bin.jar:. -d ../bin IHM.java
 cd ../bin
 java -cp ../lib/*:. IHM</code>
